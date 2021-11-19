@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Booking Accommodation" skipped="0" tests="1" time="34.93" timestamp="2021-11-15 10:03:48"><testcase name="Add Garment success"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+com.co.devco.task.bookingSearch.performAs(bookingSearch.java:36)&#13;
+com.co.devco.stepdefinitions.bookingAccommodationStepDefinitions.theUserSearchTheAccommodation(bookingAccommodationStepDefinitions.java:26)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+com.co.devco.runners.CustomRunner.run(CustomRunner.java:64)&#13;
+</system-err></testcase></testsuite>

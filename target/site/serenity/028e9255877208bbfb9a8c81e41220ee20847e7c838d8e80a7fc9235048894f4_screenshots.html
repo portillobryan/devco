@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="20fba9fbd93aaec6a26858de948c4083e8c846a25b65968a674391632befd5d3.html">Booking Fligth</a></span>
+                > <span class="truncate-60"><a
+                    href="028e9255877208bbfb9a8c81e41220ee20847e7c838d8e80a7fc9235048894f4.html">Booking fligth success </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-11-2021 19:07</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Booking Fligth </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="24aacda3e479b17aef4c2fafa3fb6f2fcac1704edab883a1848f7adc3af41546.html">Test
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Booking fligth success
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given the user enters main page<br>When the user search the fligth<br><table class='embedded'><thead><th>origen</th><th>destino</th><th>datein</th><th>dateout</th></thead><tbody><tr><td>&lt;origen&gt;</td><td>&lt;destino&gt;</td><td>&lt;datein&gt;</td><td>&lt;dateout&gt;</td></tr></tbody></table><br>When then user select the fligth<br><table class='embedded'><thead><th>name</th><th>lastname</th><th>sex</th><th>identification_type</th><th>identification_number</th><th>email</th><th>address</th><th>city</th><th>country</th><th>postal_code</th><th>number</th><th>identification_type_comprador</th><th>identification_number_comprador</th></thead><tbody><tr><td>&lt;name&gt;</td><td>&lt;lastname&gt;</td><td>&lt;sex&gt;</td><td>&lt;identification_type&gt;</td><td>&lt;identification_number&gt;</td><td>&lt;email&gt;</td><td>&lt;address&gt;</td><td>&lt;city&gt;</td><td>&lt;country&gt;</td><td>&lt;postal_code&gt;</td><td>&lt;number&gt;</td><td>&lt;identification_type_comprador&gt;</td><td>&lt;identification_number_comprador&gt;</td></tr></tbody></table><br>Then the user successfully add fligth</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="1dcd57567013b67f9d80880f4e063005a3e76f54995276a20af374f3d86beb12.png" title=" Example: {origen=Cali, destino=MDE, datein=November 18, dateout=November 20, name=Prueba, lastname=Prueab, sex=Hombre, identification_type=NIE, identification_number=123456, email=prueba@gmail.com, address=Avenida 100, city=Cali, country=Colombia, postal_code=760001, number=3122332, identification_type_comprador=NIE, identification_number_comprador=123442}" width="1366"/>
+                <img src="1dcd57567013b67f9d80880f4e063005a3e76f54995276a20af374f3d86beb12.png" title=" Given the user enters main page" width="1366"/>
+                <img src="1dcd57567013b67f9d80880f4e063005a3e76f54995276a20af374f3d86beb12.png" title=" When the user search the fligth
+| origen | destino | datein | dateout |
+| Cali | MDE | November 18 | November 20 |" width="1366"/>
+                <img src="e79fc7a4f5f8983e2037c6293edd7d447b461662c01282c86d0ca128b2cdcd74.png" title=" Actor fligth search" width="1366"/>
+                <img src="e79fc7a4f5f8983e2037c6293edd7d447b461662c01282c86d0ca128b2cdcd74.png" title=" actor clicks on Fligth Section" width="1366"/>
+                <img src="96f027187b3ee380b5e41146869bca7f99392f2576507a449ad457c9f3d8cee4.png" title=" actor clicks on Fligth Section (completed)" width="1366"/>
+                <img src="96f027187b3ee380b5e41146869bca7f99392f2576507a449ad457c9f3d8cee4.png" title=" Actor wait for" width="1366"/>
+                <img src="96f027187b3ee380b5e41146869bca7f99392f2576507a449ad457c9f3d8cee4.png" title=" Actor wait for (completed)" width="1366"/>
+                <img src="96f027187b3ee380b5e41146869bca7f99392f2576507a449ad457c9f3d8cee4.png" title=" actor clicks on Origen input" width="1366"/>
+                <img src="df7a306331e0c34fec4bd1de52de3e067b25d513c0b7e009e236baa81344f68a.png" title=" actor clicks on Origen input (completed)" width="1366"/>
+                <img src="df7a306331e0c34fec4bd1de52de3e067b25d513c0b7e009e236baa81344f68a.png" title=" actor enters 'Cali' into ORIGEN_INPUT_VALUE" width="1366"/>
+                <img src="deace8ef9a20bc19d444b40f19cb7389430537c26716f6d99858b81e5c56a60e.png" title=" actor enters 'Cali' into ORIGEN_INPUT_VALUE (completed)" width="1366"/>
+                <img src="deace8ef9a20bc19d444b40f19cb7389430537c26716f6d99858b81e5c56a60e.png" title=" actor clicks on Origen select Value" width="1366"/>
+                <img src="390424e0a1afb8b486ce6583cb6e1a4dc40b4c18d573ff30f042c989d4d5ad36.png" title=" actor clicks on Origen select Value (completed)" width="1366"/>
+                <img src="390424e0a1afb8b486ce6583cb6e1a4dc40b4c18d573ff30f042c989d4d5ad36.png" title=" actor clicks on Destino input" width="1366"/>
+                <img src="26c701ced5619d008e182a113a8a9ffb9d2e04db6b9e2c70c4e6c88b0590665d.png" title=" actor clicks on Destino input (completed)" width="1366"/>
+                <img src="26c701ced5619d008e182a113a8a9ffb9d2e04db6b9e2c70c4e6c88b0590665d.png" title=" actor enters 'MDE' into DESTINO_INPUT_VALUE" width="1366"/>
+                <img src="2a68c0cec844650a62d426dcfd684643c409b6d334e2aed813f52c166d4d220b.png" title=" actor enters 'MDE' into DESTINO_INPUT_VALUE (completed)" width="1366"/>
+                <img src="2a68c0cec844650a62d426dcfd684643c409b6d334e2aed813f52c166d4d220b.png" title=" actor clicks on Origen select Value" width="1366"/>
+                <img src="8cde2c4170be942011512dc135c93cc58af1b7fc39ddec877532eac7a2656d8c.png" title=" actor clicks on Origen select Value (completed)" width="1366"/>
+                <img src="8cde2c4170be942011512dc135c93cc58af1b7fc39ddec877532eac7a2656d8c.png" title=" actor clicks on Datein input" width="1366"/>
+                <img src="0a110ec8802c47c2861aa5ccd39c2719e6f2e87eef4b882d9c57331050774139.png" title=" actor clicks on Datein input (completed)" width="1366"/>
+                <img src="0a110ec8802c47c2861aa5ccd39c2719e6f2e87eef4b882d9c57331050774139.png" title=" actor clicks on Date" width="1366"/>
+                <img src="36e886e5d16952933586c208cf95df6874050d123ef3943c8ee06a1d0278f921.png" title=" actor clicks on Date (completed)" width="1366"/>
+                <img src="36e886e5d16952933586c208cf95df6874050d123ef3943c8ee06a1d0278f921.png" title=" Actor wait for" width="1366"/>
+                <img src="36e886e5d16952933586c208cf95df6874050d123ef3943c8ee06a1d0278f921.png" title=" Actor wait for (completed)" width="1366"/>
+                <img src="36e886e5d16952933586c208cf95df6874050d123ef3943c8ee06a1d0278f921.png" title=" actor clicks on Date" width="1366"/>
+                <img src="5f1263d4c55ba6a7159867d3454c8ff38a9e3a537a644c12e3a380141685b25d.png" title=" actor clicks on Date (completed)" width="1366"/>
+                <img src="5f1263d4c55ba6a7159867d3454c8ff38a9e3a537a644c12e3a380141685b25d.png" title=" actor clicks on Search button" width="1366"/>
+                <img src="1aa9bde24a60c8830eeb3e591b787081d25dc64302ad0d4c0058ad1392ea3583.png" title=" actor clicks on Search button (completed)" width="1366"/>
+                <img src="1aa9bde24a60c8830eeb3e591b787081d25dc64302ad0d4c0058ad1392ea3583.png" title=" Actor wait for" width="1366"/>
+                <img src="a926bc5cf4dd0f13de42a6fe60ffc8cb6fd075a5d8d72c78a417c681174cda1e.png" title=" Actor wait for (completed)" width="1366"/>
+                <img src="a926bc5cf4dd0f13de42a6fe60ffc8cb6fd075a5d8d72c78a417c681174cda1e.png" title=" Actor fligth search (completed)" width="1366"/>
+                <img src="a926bc5cf4dd0f13de42a6fe60ffc8cb6fd075a5d8d72c78a417c681174cda1e.png" title=" When the user search the fligth
+| origen | destino | datein | dateout |
+| Cali | MDE | November 18 | November 20 | (completed)" width="1366"/>
+                <img src="a926bc5cf4dd0f13de42a6fe60ffc8cb6fd075a5d8d72c78a417c681174cda1e.png" title=" When then user select the fligth
+| name | lastname | sex | identification_type | identification_number | email | address | city | country | postal_code | number | identification_type_comprador | identification_number_comprador |
+| Prueba | Prueab | Hombre | NIE | 123456 | prueba@gmail.com | Avenida 100 | Cali | Colombia | 760001 | 3122332 | NIE | 123442 |" width="1366"/>
+                <img src="a926bc5cf4dd0f13de42a6fe60ffc8cb6fd075a5d8d72c78a417c681174cda1e.png" title=" When then user select the fligth
+| name | lastname | sex | identification_type | identification_number | email | address | city | country | postal_code | number | identification_type_comprador | identification_number_comprador |
+| Prueba | Prueab | Hombre | NIE | 123456 | prueba@gmail.com | Avenida 100 | Cali | Colombia | 760001 | 3122332 | NIE | 123442 | (completed)" width="1366"/>
+                <img src="a926bc5cf4dd0f13de42a6fe60ffc8cb6fd075a5d8d72c78a417c681174cda1e.png" title=" Then the user successfully add fligth" width="1366"/>
+                <img src="a926bc5cf4dd0f13de42a6fe60ffc8cb6fd075a5d8d72c78a417c681174cda1e.png" title=" Then the user successfully add fligth (completed)" width="1366"/>
+                <img src="a926bc5cf4dd0f13de42a6fe60ffc8cb6fd075a5d8d72c78a417c681174cda1e.png" title=" Example: {origen=Cali, destino=MDE, datein=November 18, dateout=November 20, name=Prueba, lastname=Prueab, sex=Hombre, identification_type=NIE, identification_number=123456, email=prueba@gmail.com, address=Avenida 100, city=Cali, country=Colombia, postal_code=760001, number=3122332, identification_type_comprador=NIE, identification_number_comprador=123442} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.70</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="fc31ba4e5054f56056f55661a078a751042d4234975c176be6c4bb05163c0a9c.html">Booking Accommodation</a></span>
+                > <span class="truncate-60"><a
+                    href="c69003d4b4e30e727f7141cbd3008b1458594d0ea8a73b52f46164db6e41df87.html">Booking Accommodation success </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-11-2021 11:32</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Booking Accommodation </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="24aacda3e479b17aef4c2fafa3fb6f2fcac1704edab883a1848f7adc3af41546.html">Test
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Booking Accommodation success
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given the user enters main page<br>When the user search the accommodation<br><table class='embedded'><thead><th>ubication</th><th>depart</th><th>datein</th><th>dateout</th></thead><tbody><tr><td>&lt;ubication&gt;</td><td>&lt;depart&gt;</td><td>&lt;datein&gt;</td><td>&lt;dateout&gt;</td></tr></tbody></table><br>When then user select the accommodation<br><table class='embedded'><thead><th>hotel</th><th>room</th><th>name</th><th>lastname</th><th>email</th></thead><tbody><tr><td>&lt;hotel&gt;</td><td>&lt;room&gt;</td><td>&lt;name&gt;</td><td>&lt;lastname&gt;</td><td>&lt;email&gt;</td></tr></tbody></table><br>Then the user successfully add</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="ebcb234f3bd5afafc17e962cc4121b474f0255decfc91082bf1eea187ada02d8.png" title=" Example: {ubication=Cali, depart=Valle del Cauca, datein=2021-11-16, dateout=2021-11-20, hotel=stein, room=1, name=prueba, lastname=prueba, email=prueba@gmail.com}" width="1366"/>
+                <img src="ebcb234f3bd5afafc17e962cc4121b474f0255decfc91082bf1eea187ada02d8.png" title=" Given the user enters main page" width="1366"/>
+                <img src="ebcb234f3bd5afafc17e962cc4121b474f0255decfc91082bf1eea187ada02d8.png" title=" When the user search the accommodation
+| ubication | depart | datein | dateout |
+| Cali | Valle del Cauca | 2021-11-16 | 2021-11-20 |" width="1366"/>
+                <img src="ebcb234f3bd5afafc17e962cc4121b474f0255decfc91082bf1eea187ada02d8.png" title=" Actor booking search" width="1366"/>
+                <img src="ebcb234f3bd5afafc17e962cc4121b474f0255decfc91082bf1eea187ada02d8.png" title=" actor clicks on Ubication Input" width="1366"/>
+                <img src="ba92b26b8d38b89e4a972e855bb3f9e08b0fdfae2c1ad46d363c8a5836dae96a.png" title=" actor clicks on Ubication Input (completed)" width="1366"/>
+                <img src="ba92b26b8d38b89e4a972e855bb3f9e08b0fdfae2c1ad46d363c8a5836dae96a.png" title=" actor enters 'Cali' into Ubication Input" width="1366"/>
+                <img src="d660f9159ad50aae5088eecc6da2c7e02dda3a8a212bb0189092963bbc27ec0b.png" title=" actor enters 'Cali' into Ubication Input (completed)" width="1366"/>
+                <img src="d660f9159ad50aae5088eecc6da2c7e02dda3a8a212bb0189092963bbc27ec0b.png" title=" actor clicks on Ubication Select Input" width="1366"/>
+                <img src="f1c4e5117932f5de2cf273ddd66f8c3f349cac13c6341bd4b8bb05d7c6d7ddc6.png" title=" actor clicks on Ubication Select Input (completed)" width="1366"/>
+                <img src="f1c4e5117932f5de2cf273ddd66f8c3f349cac13c6341bd4b8bb05d7c6d7ddc6.png" title=" Actor wait for" width="1366"/>
+                <img src="f1c4e5117932f5de2cf273ddd66f8c3f349cac13c6341bd4b8bb05d7c6d7ddc6.png" title=" Actor wait for (completed)" width="1366"/>
+                <img src="f1c4e5117932f5de2cf273ddd66f8c3f349cac13c6341bd4b8bb05d7c6d7ddc6.png" title=" actor clicks on Date Input" width="1366"/>
+                <img src="d1eda47183a9229726efd2d6567db8c5474a7c8fc6111d5f943776df6220b524.png" title=" actor clicks on Date Input (completed)" width="1366"/>
+                <img src="d1eda47183a9229726efd2d6567db8c5474a7c8fc6111d5f943776df6220b524.png" title=" actor clicks on Date Input" width="1366"/>
+                <img src="22726d79ed7e18d2ea8c036cac521dfdd75edc0d40a9fb582d2c57a922681766.png" title=" actor clicks on Date Input (completed)" width="1366"/>
+                <img src="22726d79ed7e18d2ea8c036cac521dfdd75edc0d40a9fb582d2c57a922681766.png" title=" Actor wait for" width="1366"/>
+                <img src="22726d79ed7e18d2ea8c036cac521dfdd75edc0d40a9fb582d2c57a922681766.png" title=" Actor wait for (completed)" width="1366"/>
+                <img src="22726d79ed7e18d2ea8c036cac521dfdd75edc0d40a9fb582d2c57a922681766.png" title=" actor clicks on Search Button" width="1366"/>
+                <img src="6bfe8bd7ae10416904cd4085d1ee95fc9a85fe90d21b4c0fee463085c6a0994e.png" title=" actor clicks on Search Button (completed)" width="1366"/>
+                <img src="6bfe8bd7ae10416904cd4085d1ee95fc9a85fe90d21b4c0fee463085c6a0994e.png" title=" Actor wait for" width="1366"/>
+                <img src="6bfe8bd7ae10416904cd4085d1ee95fc9a85fe90d21b4c0fee463085c6a0994e.png" title=" Actor wait for (completed)" width="1366"/>
+                <img src="6bfe8bd7ae10416904cd4085d1ee95fc9a85fe90d21b4c0fee463085c6a0994e.png" title=" Actor booking search (completed)" width="1366"/>
+                <img src="6bfe8bd7ae10416904cd4085d1ee95fc9a85fe90d21b4c0fee463085c6a0994e.png" title=" When the user search the accommodation
+| ubication | depart | datein | dateout |
+| Cali | Valle del Cauca | 2021-11-16 | 2021-11-20 | (completed)" width="1366"/>
+                <img src="6bfe8bd7ae10416904cd4085d1ee95fc9a85fe90d21b4c0fee463085c6a0994e.png" title=" When then user select the accommodation
+| hotel | room | name | lastname | email |
+| stein | 1 | prueba | prueba | prueba@gmail.com |" width="1366"/>
+                <img src="6bfe8bd7ae10416904cd4085d1ee95fc9a85fe90d21b4c0fee463085c6a0994e.png" title=" Actor booking select" width="1366"/>
+                <img src="6bfe8bd7ae10416904cd4085d1ee95fc9a85fe90d21b4c0fee463085c6a0994e.png" title=" actor clicks on Select Acommodation" width="1366"/>
+                <img src="6f0836f7d6d8c2e6c79f2f4ca30d2ebd72d02f6cdae6949923ce5bd31cdc7ac4.png" title=" actor clicks on Select Acommodation (completed)" width="1366"/>
+                <img src="6f0836f7d6d8c2e6c79f2f4ca30d2ebd72d02f6cdae6949923ce5bd31cdc7ac4.png" title=" Actor switch to new window" width="1366"/>
+                <img src="1805e6f17fb9189e74a4d0c6cafbe3718cc0e2a686ce37462e8e491b509ad2f0.png" title=" Actor switch to new window (completed)" width="1366"/>
+                <img src="006acd8548fff1cc7c48d670cee2b81ba493d0a11f18fd67f746457284f16878.png" title=" actor clicks on Select Room" width="1366"/>
+                <img src="c37221f841e2cfbc07341187e72320bde916d03c4e31834b2cb50fdcde3527f6.png" title=" actor clicks on Select Room (completed)" width="1366"/>
+                <img src="c37221f841e2cfbc07341187e72320bde916d03c4e31834b2cb50fdcde3527f6.png" title=" actor clicks on Room" width="1366"/>
+                <img src="ef282f586f8a6a00d004cc407427bd41ee7ab89974a5063ddba8f3479e376a86.png" title=" actor clicks on Room (completed)" width="1366"/>
+                <img src="dbc820a56dbb3687d9cd3618d067cc87fe9470ef31f7d41f6b7120cfe3d9f013.png" title=" Actor wait for" width="1366"/>
+                <img src="dbc820a56dbb3687d9cd3618d067cc87fe9470ef31f7d41f6b7120cfe3d9f013.png" title=" Actor wait for (completed)" width="1366"/>
+                <img src="dbc820a56dbb3687d9cd3618d067cc87fe9470ef31f7d41f6b7120cfe3d9f013.png" title=" actor clicks on Booking Button" width="1366"/>
+                <img src="01c4ca075240f8f623bddc85989220833ce4d4065fae6193c28b862c8184d103.png" title=" actor clicks on Booking Button (completed)" width="1366"/>
+                <img src="01c4ca075240f8f623bddc85989220833ce4d4065fae6193c28b862c8184d103.png" title=" Actor wait for" width="1366"/>
+                <img src="01c4ca075240f8f623bddc85989220833ce4d4065fae6193c28b862c8184d103.png" title=" Actor wait for (completed)" width="1366"/>
+                <img src="5222c436e1d89914d7b0efea48151400bf6d3c3252735a34e30065c4268f84f9.png" title=" actor enters 'prueba' into Name input" width="1366"/>
+                <img src="f6075567098f1ba0d166024e821ae785aa9b8964644a25519200ad156ab54644.png" title=" actor enters 'prueba' into Name input (completed)" width="1366"/>
+                <img src="f6075567098f1ba0d166024e821ae785aa9b8964644a25519200ad156ab54644.png" title=" actor enters 'prueba' into Lastnmae input" width="1366"/>
+                <img src="c873fa27d0064d8a214a38b2b370b9b8c98c61aece0833909a956e14caac6be6.png" title=" actor enters 'prueba' into Lastnmae input (completed)" width="1366"/>
+                <img src="c873fa27d0064d8a214a38b2b370b9b8c98c61aece0833909a956e14caac6be6.png" title=" actor enters 'prueba@gmail.com' into Email input" width="1366"/>
+                <img src="ba035bc8d69212609982e1ae59261edafe95468e204cf198119d1092b3362f4d.png" title=" actor enters 'prueba@gmail.com' into Email input (completed)" width="1366"/>
+                <img src="ba035bc8d69212609982e1ae59261edafe95468e204cf198119d1092b3362f4d.png" title=" actor enters 'prueba@gmail.com' into Confirm Email" width="1366"/>
+                <img src="114e234687db4985e96cd5c41f317588f6cb558affffccc98b56958978e52cbf.png" title=" actor enters 'prueba@gmail.com' into Confirm Email (completed)" width="1366"/>
+                <img src="114e234687db4985e96cd5c41f317588f6cb558affffccc98b56958978e52cbf.png" title=" Actor wait for" width="1366"/>
+                <img src="114e234687db4985e96cd5c41f317588f6cb558affffccc98b56958978e52cbf.png" title=" Actor wait for (completed)" width="1366"/>
+                <img src="114e234687db4985e96cd5c41f317588f6cb558affffccc98b56958978e52cbf.png" title=" Actor booking select (completed)" width="1366"/>
+                <img src="114e234687db4985e96cd5c41f317588f6cb558affffccc98b56958978e52cbf.png" title=" When then user select the accommodation
+| hotel | room | name | lastname | email |
+| stein | 1 | prueba | prueba | prueba@gmail.com | (completed)" width="1366"/>
+                <img src="114e234687db4985e96cd5c41f317588f6cb558affffccc98b56958978e52cbf.png" title=" Then the user successfully add" width="1366"/>
+                <img src="114e234687db4985e96cd5c41f317588f6cb558affffccc98b56958978e52cbf.png" title=" Then the element" width="1366"/>
+                <img src="79f6ca6eab11d9cede73b737d006b8de15a2058ab826fb7f1d613a7d4d802a84.png" title=" Then the element (completed)" width="1366"/>
+                <img src="79f6ca6eab11d9cede73b737d006b8de15a2058ab826fb7f1d613a7d4d802a84.png" title=" Then the user successfully add (completed)" width="1366"/>
+                <img src="79f6ca6eab11d9cede73b737d006b8de15a2058ab826fb7f1d613a7d4d802a84.png" title=" Example: {ubication=Cali, depart=Valle del Cauca, datein=2021-11-16, dateout=2021-11-20, hotel=stein, room=1, name=prueba, lastname=prueba, email=prueba@gmail.com} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.70</span>
+</div>
+</body>
+</html>
